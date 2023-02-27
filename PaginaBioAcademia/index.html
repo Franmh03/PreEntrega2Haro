@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bioacademia</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    
+    <link rel="shortcut icon" href="images/celulalogo.png" />
+</head>
+<body>
+    <nav>
+        
+        <ul class="ulnav">
+            <li class="linav" id="logo"> <a href="index.html"> <img src="images/celulalogo.png" alt="Logo" > </a>   </li>
+            <li class="linav"> <a href="index.html"> <img src="images/Home.png" alt="Home" > </a>   </li>
+            <li class="linav"> <a href="pages/cursos.html">Cursos</a> </li>
+            <li class="linav"> <a href="pages/academia.html">Academia</a> </li>
+            <li class="linav"> <a href="pages/clasesparticulares.html">Clases particulares</a> </li>
+            <li class="linav"> <a href="pages/recursos.html">Recursos</a> </li>
+            <li class="linav"> <a href="pages/tienda.html">Tienda</a> </li>
+            <li>  
+              <div class="box">
+               <a class="button" href="#popup1">Suscribete</a>
+              </div>
+            </li>
+
+            
+            <div id="popup1" class="overlay">
+              <div class="popup">
+                <p>Newsletter</p>
+                <a class="close" href="#">&times;</a>
+                <div class="content" id="newsoff">
+                  <p> Suscribete a nuestro newsletter y recibe promociones, noticias del mundo y novedades de nuestra academia
+                  </p>
+                                  <label for="nombre" class="colocar_nombre">Nombre completo
+                                    <span class="obligatorio">*</span>
+                                  </label>
+                                  <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                                </p>
+                              
+                                <p>
+                                  <label for="email" class="colocar_email">Email
+                                    <span class="obligatorio">*</span>
+                                  </label>
+                                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                                </p>
+                                <button  name="enviar_formulario" id="buttonnew"><p>Enviar</p></button>
+                </div>
+              </div>
+            </div>
+        </ul>
+    </nav>
+
+  <article id="Aprendebio">
+    <div class="cent1">
+      <div class="cent2">
+      <h1 class="encabezado" class="centro">Aprende biologia</h1>
+      <h3 class="centro">Accede desde la comunidad de tu hogar a cursos, contenidos y soportes para facilitar al maximo tu aprendizaje </h3>
+      </div>
+    </div>
+    <img src="images/Cientifico.png" alt="Cientifico" id="img1">
+  </article>
+    
+
+  
+  <article id="ventajas">
+    <h3 class="texcen">Ventajas</h3>
+    
+    <h2 class="texcen">¿Porque estudiar junto a nosotros?</h2>
+    <div class="ventdiv">
+
+    </div><ul class="ulvent">
+      <img src="images/Matraz.png" alt="Matraz" class="imgvent" id="vent1img">
+      <li id="vent1">
+      <h4>Biologia a distancia</h4>
+      <p>Podras acceder a cursos de todos los niveles, para tus necesidades reales. Videos, modelos 3d, autoevaluaciones y asistencia personalizada</p></li>
+    </div>
+
+    <div class="ventdiv">
+        <img src="images/Reloj.png" alt="reloj" class="imgvent" id="vent2img"> 
+      <li id="vent2">
+      <h4>Estudia a tu ritmo</h4>
+      <p>Cursos 100% online que te permitiran acceder en cualquier momento, pudiendo aprender como y cuando tu quieras, a tu propio ritmo</p></li>
+   </div>
+
+     <div class="ventdiv">
+      <img src="images/WhatsappLogo.png" alt="WhatsappLogo"  class="imgvent" id="vent3img">
+      <li id="vent3">  
+      <h4>Atencion personal</h4>
+      <p>Asistencia de profesionales a un solo mensaje de distancia, ademas de foros y chats con otros estudiantes para poder interiorizarte mas</p></li>
+     </div>
+    </ul>
+
+  </article>
+
+  <article id="artoferta">
+
+    <h2 style="text-align: center; margin-bottom: 50px;">¿Que te ofrecemos en nuestra academia?</h2>
+    <!--  No entiendo porque no puedo centrar, intente ponerle id, class y despues en el styles.css ponerle el text align center, display flex justify content, etc. No me dejo centrar el h2 de ningun modo, por eso lo hice aca -->
+    <ul id="oferul">
+      <div class="oferli">
+   <li >
+      <h5>
+        <b>Cursos</b>
+      </h5>
+      <p>Cursos diseñados para que aprendas los que necesitas, con autoevaluaciones para medir tu progreso</p>
+    </li>
+  </div>
+
+    <li class="oferli">
+      <h5>
+        <b>Contacto</b>
+      </h5>
+      <p>Comunicacion via Whatsapp para resolver todas tus dudas en menos de 24 hs</p>
+    </li>
+
+    <li class="oferli">
+      <h5>
+        <b>Foros</b>
+      </h5>
+      <p>Donde podras acceder a diversos articulos realizados por los profesores o trheads generados por los estudiantes</p>
+    </li>
+
+    <li class="oferli">
+      <h5>
+        <b>Clases</b>
+      </h5>
+      <p>Clases praticulares a medida cuando no entiendas un tema, y clases grupales niveladoras</p>
+    </li>
+    </ul>
+  </article>
+    <br>
+<article id="artcurso">
+    <img src="images/Laboratorio.jpg" alt="Laboratorio de cienicas" id="imglab">
+  
+    
+  <div id="divcurso">
+    <p id="p1"><b>Curso de muestra gratuito</b></p>
+    <h3>Aprende con experimentos</h3>
+    <p id="expp">En este curso podras aprender diferentes conceptos de biologia a travez de experimentos</p>
+
+    <ul class="expul">
+      <li class="expli1"> <div class="achic"><img src="images/check.png" alt="check" class="redimg"> </div>Videos, texto y material multimedia</li>
+      <li class="expli1"><img src="images/check.png" alt="check" class="redimg">Comentarios, chats y diferentes foros</li>
+    </ul>
+    <ul class="expul">
+      <li class="expli2"><img src="images/check.png" alt="check" class="redimg">PDF resumen de cada tema</li>
+      <li class="expli2"><img src="images/check.png" alt="check" class="redimg">Examen de autoevaluacion</li>
+    </ul>
+    <a target="_blank" class="fcc-btn" href="pages/cursos.html" id="boton">Accede</a>  
+    
+  </div>
+</article>
+
+
+    <footer class="footer">
+        
+        <ul class="footer__nav">
+          <li class="nav__item">
+            <h2 class="nav__title">Sobre nosotros</h2>
+      
+            <ul class="nav__ul">
+              <li>
+                <a href="pages/futuro.html">La academia</a>
+              </li>
+      
+              <li>
+                <a href="pages/futuro.html">Certifacion</a>
+              </li>
+                  
+              <li>
+                <a href="pages/futuro.html">Profesionales</a>
+              </li>
+            </ul>
+          </li>
+          
+          <li class="nav__item nav__item--extra">
+            <h2 class="nav__title">Informacion legal</h2>
+            
+            <ul class="nav__ul nav__ul--extra">
+              <li>
+                <a href="pages/futuro.html">Aviso legal</a>
+              </li>
+              
+              <li>
+                <a href="pages/futuro.html">Politica de privacidad</a>
+              </li>
+              
+              <li>
+                <a href="pages/futuro.html">Politica de cookies</a>
+              </li>
+              
+              <li>
+                <a href="pages/futuro.html">Terminos y condiciones</a>
+              </li>
+              
+            </ul>
+          </li>
+          
+          <li class="nav__item">
+            <h2 class="nav__title">Contacta con nosotros</h2>
+            
+            <ul class="nav__ul">
+              <li>
+                <a href="pages/futuro.html">info@bioacademia.com</a>
+              </li>
+              
+              <li>
+                <a href="pages/futuro.html">+54 293 472-3312</a>
+              </li>
+              
+              <li>
+                <a href="pages/futuro.html">@bioacademia</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        
+        <div class="legal">
+          <p>Copyrigth &copy; 2023 Bioacademia.</p>
+        </div>
+      </footer>
+</body>
+</html>
